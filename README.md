@@ -26,3 +26,7 @@
 | **Commands**  | **Descriptions**  |
 |---|---|
 | > **docker ps -a**  |  Lista todas as imagens executadas | 
+| > **docker run -d dockersamples/static-site** | Executa imagem em background para não travar o terminal|
+| > **docker run -d -P dockersamples/static-site** | Docker atribua uma porta aleatória do mundo externo|
+| > **docker run -d -P --name meusite dockersamples/static-site** | atribuindo nome a uma imagem|
+| > **docker port id** | Visualizando a porta para acessar da própria máquina|
