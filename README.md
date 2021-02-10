@@ -3,6 +3,8 @@
 
 # **Comandos Docker (Estudos)**
 
+
+> **docker ps -a** Lista todas as imagens executadas
 * docker ps -a  Lista todas as imagens executadas
 * docker ps     Mostra as imagens ativas no momento
 * docker run [nome_imagem] executa um container
