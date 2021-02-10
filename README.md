@@ -21,3 +21,8 @@
 > **docker images** Mostra todas as imagens 
 
 > **docker rmi [nome_imagem]** Remove uma imagem
+
+
+| **Commands**  | **Descriptions**  |
+|---|---|
+| > **docker ps -a**  |  Lista todas as imagens executadas | 
