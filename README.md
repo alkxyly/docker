@@ -31,7 +31,7 @@
 | > **docker run -d -P --name meusite dockersamples/static-site** | atribuindo nome a uma imagem|
 | > **docker run -d -P -e AUTHOR="XXXXX"  dockersamples/static-site** | atribuindo um valor a variavel de ambiente|
 | > **docker port id** | Visualizando a porta para acessar da própria máquina|
-| > **docker stop $(docker ps -q) ** | Para toda imagem executando a partir dos ids|
+| > **docker stop $(docker ps -q)** | Para toda imagem executando a partir dos ids|
 | > **docker ps** | exibe todos os containers em execução no momento.|
 | > **docker ps -a** | exibe todos os containers, independentemente de estarem em execução ou não.|
 | > **docker run -it NOME_DA_IMAGEM** | conecta o terminal que estamos utilizando com o do container.|
@@ -46,3 +46,4 @@
 | > **docker run -d -P -e AUTHOR="Fulano" dockersamples/static-site** | define uma variável de ambiente AUTHOR com o valor Fulano no container criado.|
 | > **docker run -it -v "C:\Users\assantos\Desktop:/var/www" ubuntu** | relacionando uma pasta local com a pasta do container|
 | > **docker run  -p -d 9090:3000 -v "C:\Users\assantos\Desktop\volume-exemplo:/var/www" -w "/var/www"  node npm start** |  Startando uma aplicaçao node dentro de um container|
+| > **docker build -f Dockerfile -t douglasq/node .**| Criando uma imagem Dockerfile |
