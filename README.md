@@ -47,3 +47,5 @@
 | > **docker run -it -v "C:\Users\assantos\Desktop:/var/www" ubuntu** | relacionando uma pasta local com a pasta do container|
 | > **docker run  -p -d 9090:3000 -v "C:\Users\assantos\Desktop\volume-exemplo:/var/www" -w "/var/www"  node npm start** |  Startando uma aplicaçao node dentro de um container|
 | > **docker build -f Dockerfile -t douglasq/node .**| Criando uma imagem Dockerfile |
+| > **docker run --network minha-rede -d -p 8080:3000 douglasq/alura-books:cap05**| ROdando a aplicacao em uma rede propria|
+| > **docker-compose build**| Builda o arquivo docker-compose para baixar todas as imagens necessárias|
