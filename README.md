@@ -123,4 +123,6 @@ docker-compose up - Sobe todos os containers relacionados ao docker-compose, des
 
 docker-compose down - Para todos os serviços em execução que estejam relacionados ao arquivo docker-compose.yml.
 
+docker-compose ps - lista os serviços que estão rodando.
 
+docker exec -it alura-books-1 ping node2 - executa o comando ping node2 dentro do container alura-books-1
